@@ -10,3 +10,5 @@
  - 支持点击Tab跳转
  
 ## 下面是显示的效果图
+
+![image](https://github.com/zengzhezz/TableViewPager/blob/master/images/1.gif)
