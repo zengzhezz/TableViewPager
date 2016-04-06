@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zz="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     android:orientation="vertical">
 
     <com.zz.tableviewpager.ViewPagerIndicator
         android:id="@+id/id_indicator"
         android:background="@color/colorIndicator"
         android:orientation="horizontal"
+        zz:visible_tab_count="3"
         android:layout_width="match_parent"
         android:layout_height="45dp">
 
@@ -32,6 +35,60 @@
 
         <TextView
             android:text="Tab3"
+            android:textColor="#CCFFFFFF"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:text="Tab4"
+            android:textColor="#CCFFFFFF"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:text="Tab5"
+            android:textColor="#CCFFFFFF"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:text="Tab6"
+            android:textColor="#CCFFFFFF"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:text="Tab7"
+            android:textColor="#CCFFFFFF"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:text="Tab8"
+            android:textColor="#CCFFFFFF"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:text="Tab9"
             android:textColor="#CCFFFFFF"
             android:textSize="16sp"
             android:gravity="center"
